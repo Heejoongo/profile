@@ -35,10 +35,9 @@ a:visited {
 }
 
 .card-white {
-  background: rgb(255, 251, 247);
+  background: rgba(255, 251, 247, 0.718);
   padding: 30px;
   margin: 30px auto;
-  border: 1px solid lightgrey;
   border-radius: 2%;
 }
 
