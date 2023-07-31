@@ -1,0 +1,72 @@
+body {
+  background-color: #ffebcd84;
+  color: rgba(40,40,40,1);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16;
+  line-height: 2;
+}
+
+h1 {
+  color: rgb(98, 157, 43);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24;
+  line-height: 2;
+}
+
+a:hover {
+  color: rgba(13, 255, 0, 0.591);
+}
+
+a:link {
+  color: rgba(246, 255, 0, 0.71);
+}
+a:visited {
+  color: rgba(128, 0, 96, 0.484);
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.center-image {
+  display: block; /* Permet de centrer l'image horizontalement */
+  margin: 0 auto; /* Met automatiquement une marge égale à gauche et à droite (centrage horizontal) */
+}
+
+.card-white {
+  background: rgb(255, 251, 247);
+  padding: 30px;
+  margin: 30px auto;
+  border: 1px solid lightgrey;
+  border-radius: 2%;
+}
+
+.img-crop {
+  border-radius: 1%;
+}
+
+#text-center {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
